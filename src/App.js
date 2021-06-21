@@ -43,7 +43,7 @@ if weather.main exists, return weather.name, weather.sys.country and weather.mai
       <input
         type="text"
         className="search"
-        placeholder="search ..."
+        placeholder="search weather by city..."
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         onKeyPress={search}
